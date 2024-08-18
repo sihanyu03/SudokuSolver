@@ -2,7 +2,7 @@
 // Created by Sihan Yu on 18/08/2024.
 //
 
-#include "Solver.h"
+#include "solver.h"
 
 Solver::Solver() {
     return_code = -1;

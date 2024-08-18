@@ -1,0 +1,255 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Users/sihanyu/Documents/Programming/Github/SudokuSolver -B /Users/sihanyu/Documents/Programming/Github/SudokuSolver/cmake-build-debug
+[1/9] Creating directories for 'googletest-populate'
+[1/9] Performing download step (download, verify and extract) for 'googletest-populate'
+-- Downloading...
+   dst='/Users/sihanyu/Documents/Programming/Github/SudokuSolver/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/release-1.15.2.tar.gz'
+   timeout='none'
+   inactivity timeout='none'
+-- Using src='https://github.com/google/googletest/archive/refs/tags/release-1.15.2.tar.gz'
+-- [download 0% complete]
+CMake Error at googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/download-googletest-populate.cmake:170 (message):
+  Each download failed!
+
+    error: downloading 'https://github.com/google/googletest/archive/refs/tags/release-1.15.2.tar.gz' failed
+          status_code: 22
+          status_string: "HTTP response code said error"
+          log:
+          --- LOG BEGIN ---
+          timeout on name lookup is not supported
+    Trying 140.82.121.4:443...
+
+  Connected to github.com (140.82.121.4) port 443
+
+  ALPN: curl offers h2,http/1.1
+
+  TLS 1.2 connection using TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+
+  Server certificate: github.com
+
+  Server certificate: Sectigo ECC Domain Validation Secure Server CA
+
+  Server certificate: USERTrust ECC Certification Authority
+
+  using HTTP/2
+
+  [HTTP/2] [1] OPENED stream for
+  https://github.com/google/googletest/archive/refs/tags/release-1.15.2.tar.gz
+
+
+  [HTTP/2] [1] [:method: GET]
+
+  [HTTP/2] [1] [:scheme: https]
+
+  [HTTP/2] [1] [:authority: github.com]
+
+  [HTTP/2] [1] [:path:
+  /google/googletest/archive/refs/tags/release-1.15.2.tar.gz]
+
+  [HTTP/2] [1] [user-agent: curl/8.4.0]
+
+  [HTTP/2] [1] [accept: */*]
+
+  GET /google/googletest/archive/refs/tags/release-1.15.2.tar.gz HTTP/2
+
+  Host: github.com
+
+  User-Agent: curl/8.4.0
+
+  Accept: */*
+
+  
+
+  HTTP/2 302 
+
+  server: GitHub.com
+
+  date: Sun, 18 Aug 2024 20:26:38 GMT
+
+  content-type: text/html; charset=utf-8
+
+  vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding,
+  Accept, X-Requested-With
+
+  location:
+  https://codeload.github.com/google/googletest/tar.gz/refs/tags/release-1.15.2
+
+
+  cache-control: max-age=0, private
+
+  strict-transport-security: max-age=31536000; includeSubdomains; preload
+
+  x-frame-options: deny
+
+  x-content-type-options: nosniff
+
+  x-xss-protection: 0
+
+  referrer-policy: no-referrer-when-downgrade
+
+  content-security-policy: default-src 'none'; base-uri 'self'; child-src
+  github.com/assets-cdn/worker/ github.com/webpack/ github.com/assets/
+  gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com
+  www.githubstatus.com collector.github.com raw.githubusercontent.com
+  api.github.com github-cloud.s3.amazonaws.com
+  github-production-repository-file-5c1aeb.s3.amazonaws.com
+  github-production-upload-manifest-file-7fdce7.s3.amazonaws.com
+  github-production-user-asset-6210df.s3.amazonaws.com
+  *.rel.tunnels.api.visualstudio.com wss://*.rel.tunnels.api.visualstudio.com
+  api.githubcopilot.com objects-origin.githubusercontent.com
+  copilot-proxy.githubusercontent.com/v1/engines/github-completion/completions
+  proxy.enterprise.githubcopilot.com/v1/engines/github-completion/completions
+  *.actions.githubusercontent.com wss://*.actions.githubusercontent.com
+  productionresultssa0.blob.core.windows.net/
+  productionresultssa1.blob.core.windows.net/
+  productionresultssa2.blob.core.windows.net/
+  productionresultssa3.blob.core.windows.net/
+  productionresultssa4.blob.core.windows.net/
+  productionresultssa5.blob.core.windows.net/
+  productionresultssa6.blob.core.windows.net/
+  productionresultssa7.blob.core.windows.net/
+  productionresultssa8.blob.core.windows.net/
+  productionresultssa9.blob.core.windows.net/
+  productionresultssa10.blob.core.windows.net/
+  productionresultssa11.blob.core.windows.net/
+  productionresultssa12.blob.core.windows.net/
+  productionresultssa13.blob.core.windows.net/
+  productionresultssa14.blob.core.windows.net/
+  productionresultssa15.blob.core.windows.net/
+  productionresultssa16.blob.core.windows.net/
+  productionresultssa17.blob.core.windows.net/
+  productionresultssa18.blob.core.windows.net/
+  productionresultssa19.blob.core.windows.net/
+  github-production-repository-image-32fea6.s3.amazonaws.com
+  github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com
+  wss://alive.github.com; font-src github.githubassets.com; form-action
+  'self' github.com gist.github.com copilot-workspace.githubnext.com
+  objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src
+  viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src
+  'self' data: blob: github.githubassets.com media.githubusercontent.com
+  camo.githubusercontent.com identicons.github.com
+  avatars.githubusercontent.com github-cloud.s3.amazonaws.com
+  objects.githubusercontent.com secured-user-images.githubusercontent.com/
+  user-images.githubusercontent.com/
+  private-user-images.githubusercontent.com opengraph.githubassets.com
+  github-production-user-asset-6210df.s3.amazonaws.com
+  customer-stories-feed.github.com spotlights-feed.github.com
+  objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src
+  'self'; media-src github.com user-images.githubusercontent.com/
+  secured-user-images.githubusercontent.com/
+  private-user-images.githubusercontent.com
+  github-production-user-asset-6210df.s3.amazonaws.com gist.github.com;
+  script-src github.githubassets.com; style-src 'unsafe-inline'
+  github.githubassets.com; upgrade-insecure-requests; worker-src
+  github.com/assets-cdn/worker/ github.com/webpack/ github.com/assets/
+  gist.github.com/assets-cdn/worker/
+
+  content-length: 0
+
+  x-github-request-id: 9CBF:1C8206:84BBE2A:881A964:66C258FE
+
+  
+
+  [0 bytes data]
+
+  Connection #0 to host github.com left intact
+
+  Issue another request to this URL:
+  'https://codeload.github.com/google/googletest/tar.gz/refs/tags/release-1.15.2'
+
+
+  timeout on name lookup is not supported
+
+    Trying 140.82.121.10:443...
+
+  Connected to codeload.github.com (140.82.121.10) port 443
+
+  ALPN: curl offers h2,http/1.1
+
+  TLS 1.2 connection using TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+
+  Server certificate: *.github.com
+
+  Server certificate: Sectigo ECC Domain Validation Secure Server CA
+
+  Server certificate: USERTrust ECC Certification Authority
+
+  using HTTP/2
+
+  [HTTP/2] [1] OPENED stream for
+  https://codeload.github.com/google/googletest/tar.gz/refs/tags/release-1.15.2
+
+
+  [HTTP/2] [1] [:method: GET]
+
+  [HTTP/2] [1] [:scheme: https]
+
+  [HTTP/2] [1] [:authority: codeload.github.com]
+
+  [HTTP/2] [1] [:path: /google/googletest/tar.gz/refs/tags/release-1.15.2]
+
+  [HTTP/2] [1] [user-agent: curl/8.4.0]
+
+  [HTTP/2] [1] [accept: */*]
+
+  GET /google/googletest/tar.gz/refs/tags/release-1.15.2 HTTP/2
+
+  Host: codeload.github.com
+
+  User-Agent: curl/8.4.0
+
+  Accept: */*
+
+  
+
+  HTTP/2 404 
+
+  access-control-allow-origin: https://render.githubusercontent.com
+
+  content-security-policy: default-src 'none'; style-src 'unsafe-inline';
+  sandbox
+
+  cross-origin-resource-policy: cross-origin
+
+  strict-transport-security: max-age=31536000
+
+  vary: Authorization,Accept-Encoding,Origin
+
+  x-content-type-options: nosniff
+
+  x-frame-options: deny
+
+  x-xss-protection: 1; mode=block
+
+  date: Sun, 18 Aug 2024 20:26:38 GMT
+
+  content-length: 14
+
+  content-type: text/plain; charset=utf-8
+
+  x-github-request-id: 9BBC:1E2FD3:25CAD7:3794EB:66C258FE
+
+  The requested URL returned error: 404
+
+  Connection #1 to host codeload.github.com left intact
+
+
+
+          --- LOG END ---
+          
+    
+
+
+FAILED: googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download /Users/sihanyu/Documents/Programming/Github/SudokuSolver/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download 
+cd /Users/sihanyu/Documents/Programming/Github/SudokuSolver/cmake-build-debug/_deps && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P /Users/sihanyu/Documents/Programming/Github/SudokuSolver/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/download-googletest-populate.cmake && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P /Users/sihanyu/Documents/Programming/Github/SudokuSolver/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/verify-googletest-populate.cmake && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P /Users/sihanyu/Documents/Programming/Github/SudokuSolver/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/extract-googletest-populate.cmake && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E touch /Users/sihanyu/Documents/Programming/Github/SudokuSolver/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download
+ninja: build stopped: subcommand failed.
+
+CMake Error at /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/FetchContent.cmake:1679 (message):
+  Build step for googletest failed: 1
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/FetchContent.cmake:1819:EVAL:2 (__FetchContent_directPopulate)
+  /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/FetchContent.cmake:1819 (cmake_language)
+  /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/FetchContent.cmake:2033 (FetchContent_Populate)
+  CMakeLists.txt:19 (FetchContent_MakeAvailable)
+
+
+-- Configuring incomplete, errors occurred!

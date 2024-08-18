@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
-#include "BoardReader.h"
-#include "Solver.h"
+#include "board_reader.h"
+#include "solver.h"
 
 void print_board(const std::vector<std::vector<char>>& board, const int return_code) {
     std::cout << std::endl;

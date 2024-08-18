@@ -2,7 +2,7 @@
 // Created by Sihan Yu on 18/08/2024.
 //
 
-#include "BoardReader.h"
+#include "board_reader.h"
 #include <iostream>
 #include <vector>
 #include <sstream>
