@@ -61,8 +61,8 @@ build CMakeFiles/SudokuSolver.dir/src/board_reader.cpp.o: CXX_COMPILER__SudokuSo
   OBJECT_DIR = CMakeFiles/SudokuSolver.dir
   OBJECT_FILE_DIR = CMakeFiles/SudokuSolver.dir/src
 
-build CMakeFiles/SudokuSolver.dir/src/Solver.cpp.o: CXX_COMPILER__SudokuSolver_unscanned_Debug /Users/sihanyu/Documents/Programming/Github/SudokuSolver/src/Solver.cpp || cmake_object_order_depends_target_SudokuSolver
-  DEP_FILE = CMakeFiles/SudokuSolver.dir/src/Solver.cpp.o.d
+build CMakeFiles/SudokuSolver.dir/src/solver.cpp.o: CXX_COMPILER__SudokuSolver_unscanned_Debug /Users/sihanyu/Documents/Programming/Github/SudokuSolver/src/solver.cpp || cmake_object_order_depends_target_SudokuSolver
+  DEP_FILE = CMakeFiles/SudokuSolver.dir/src/solver.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/SudokuSolver.dir
   OBJECT_FILE_DIR = CMakeFiles/SudokuSolver.dir/src
@@ -75,7 +75,7 @@ build CMakeFiles/SudokuSolver.dir/src/Solver.cpp.o: CXX_COMPILER__SudokuSolver_u
 #############################################
 # Link the executable SudokuSolver
 
-build SudokuSolver: CXX_EXECUTABLE_LINKER__SudokuSolver_Debug CMakeFiles/SudokuSolver.dir/src/main.cpp.o CMakeFiles/SudokuSolver.dir/src/board_reader.cpp.o CMakeFiles/SudokuSolver.dir/src/Solver.cpp.o
+build SudokuSolver: CXX_EXECUTABLE_LINKER__SudokuSolver_Debug CMakeFiles/SudokuSolver.dir/src/main.cpp.o CMakeFiles/SudokuSolver.dir/src/board_reader.cpp.o CMakeFiles/SudokuSolver.dir/src/solver.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/SudokuSolver.dir
   POST_BUILD = :

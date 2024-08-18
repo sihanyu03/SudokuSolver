@@ -1,14 +1,13 @@
 # ninja log v6
-0	432	1724011715792775848	CMakeFiles/SudokuSolver.dir/src/BoardReader.cpp.o	500caa29b381709b
-0	411	1724011715792874224	CMakeFiles/SudokuSolver.dir/src/Solver.cpp.o	d53022439f689be3
-0	402	1724011715792597513	CMakeFiles/SudokuSolver.dir/src/main.cpp.o	cc582ee4a1cf86a3
-0	350	1724009560286951172	CMakeFiles/SudokuSolver.dir/main.cpp.o	bd22201c03707dd9
-1	365	1724009560287261550	CMakeFiles/SudokuSolver.dir/Solver.cpp.o	22f19bee730380db
-432	506	1724011716224442843	SudokuSolver	3f8c49184d7708de
-2	43	1724012039405249055	build.ninja	ec78bc168832e0a2
-0	384	1724009560287160840	CMakeFiles/SudokuSolver.dir/BoardReader.cpp.o	ac0dc875e9211841
-2	36	1724012039405249055	build.ninja	ec78bc168832e0a2
-1	307	1724012039411699819	CMakeFiles/SudokuSolver.dir/src/main.cpp.o	cc582ee4a1cf86a3
-2	323	1724012039411947321	CMakeFiles/SudokuSolver.dir/src/Solver.cpp.o	d53022439f689be3
 2	348	1724012039411861279	CMakeFiles/SudokuSolver.dir/src/board_reader.cpp.o	ef6edd3fe31fc9fd
+0	384	1724009560287160840	CMakeFiles/SudokuSolver.dir/BoardReader.cpp.o	ac0dc875e9211841
+2	36	1724013438325060136	build.ninja	ec78bc168832e0a2
 348	370	1724012039758020581	SudokuSolver	d1b601c74114777b
+2	323	1724012039411947321	CMakeFiles/SudokuSolver.dir/src/Solver.cpp.o	d53022439f689be3
+1	307	1724012039411699819	CMakeFiles/SudokuSolver.dir/src/main.cpp.o	cc582ee4a1cf86a3
+1	365	1724009560287261550	CMakeFiles/SudokuSolver.dir/Solver.cpp.o	22f19bee730380db
+0	350	1724009560286951172	CMakeFiles/SudokuSolver.dir/main.cpp.o	bd22201c03707dd9
+0	432	1724011715792775848	CMakeFiles/SudokuSolver.dir/src/BoardReader.cpp.o	500caa29b381709b
+1	35	1724013438325060136	build.ninja	ec78bc168832e0a2
+2	433	1724013438332928654	CMakeFiles/SudokuSolver.dir/src/solver.cpp.o	1f75dfd9fe89f15e
+433	506	1724013438763290210	SudokuSolver	3cf3e19bd96e9198
