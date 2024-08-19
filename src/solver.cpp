@@ -38,7 +38,7 @@ int Solver::solve(std::vector<std::vector<char>> &board) {
     }
 
     std::pair coords = {0, 0};
-    while (board[coords.first][coords.second] != '-' && coords != end) {
+    while (coords != end && board[coords.first][coords.second] != '-') {
         coords = get_next_coords(coords);
     }
 
