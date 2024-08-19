@@ -1,0 +1,7 @@
+add_test([=[SolverTest.test_solve1]=]  /Users/sihanyu/Documents/Programming/Github/SudokuSolver/cmake-build-debug/tests/tests [==[--gtest_filter=SolverTest.test_solve1]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[SolverTest.test_solve1]=]  PROPERTIES WORKING_DIRECTORY /Users/sihanyu/Documents/Programming/Github/SudokuSolver/cmake-build-debug/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[SolverTest.test_solve2]=]  /Users/sihanyu/Documents/Programming/Github/SudokuSolver/cmake-build-debug/tests/tests [==[--gtest_filter=SolverTest.test_solve2]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[SolverTest.test_solve2]=]  PROPERTIES WORKING_DIRECTORY /Users/sihanyu/Documents/Programming/Github/SudokuSolver/cmake-build-debug/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[SolverTest.test_solve3]=]  /Users/sihanyu/Documents/Programming/Github/SudokuSolver/cmake-build-debug/tests/tests [==[--gtest_filter=SolverTest.test_solve3]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[SolverTest.test_solve3]=]  PROPERTIES WORKING_DIRECTORY /Users/sihanyu/Documents/Programming/Github/SudokuSolver/cmake-build-debug/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  tests_TESTS SolverTest.test_solve1 SolverTest.test_solve2 SolverTest.test_solve3)
