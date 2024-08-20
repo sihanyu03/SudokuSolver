@@ -126,7 +126,7 @@ TEST_F(SolverTest, test_solve4) {
 	EXPECT_EQ(-1, return_code);
 }
 
-TEST_F(SolverTest, 5) {
+TEST_F(SolverTest, test_solve5) {
 	std::vector<std::vector<char>> board = {
 		{'2', '7', '1', '4', '5', '6', '8', '9', '3'},
 		{'8', '5', '6', '1', '3', '9', '7', '2', '4'},
